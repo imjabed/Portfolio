@@ -1,0 +1,144 @@
+body{
+        background-color: #0b0f1a;
+}
+.firstbg {
+    height: 100vh;
+    position: relative;
+}
+
+.custom-bg1 {
+    object-fit: cover;
+    object-position: 0 -150px;
+}
+
+.firstcontent {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    right: 100px;
+}
+
+.nameTitle {
+    background-color: #0b0f1a;
+    color: #d6e7ff;
+    padding: 1rem;
+    font-weight: 500;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    border: 1px solid #0088cc;
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+}
+
+.homeAboutContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 40px;
+    background-color: #121624; 
+    color: #d0d0f5; 
+    letter-spacing: 3px;
+}
+
+.homeAboutContainer .imgContainer img {
+    border-radius: 50px;
+}
+
+.homeAboutContainer .textContainer {
+    max-width: 700px;
+}
+
+.secondbg {
+    height: 100vh;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    background-color: #0e0f1b;
+    color: #e0e0ff;
+}
+
+.projectTitle, .expTitle {
+    font-size: 30px;
+    background-color: rgba(102, 0, 204, 0.2); 
+    color: #f0f8ff;
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    border: 1px solid #6600cc;
+    border-radius: 8px;
+}
+
+.secondbg .projectContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #2c2c40;
+    border-radius: 8px;
+    background-color: #1a1a2f; 
+}
+
+.thirdbg {
+    height: 100vh;
+    position: relative;
+    padding: 40px;
+    text-align: center;
+    background-color: #0c0c17;
+    color: #e6e6ff;
+}
+
+.expCaro {
+    width: 900px;
+    height: 500px;
+    background-color: #161a2b; 
+    border: 1px solid #0099ff;
+    border-radius: 12px;
+}
+
+.carousel-caption{color: white;}
+
+.carouselWrapper {
+  display: flex;
+  align-items: center;     
+  justify-content: center; 
+}
+
+footer{
+    background-color: #161a2b;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    height: 300px;
+}
+
+footer .footerleft{
+    font-size: 40px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
+
+footer .footerright{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    letter-spacing: 2px;
+}
+
+footer .footerright .followicons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
