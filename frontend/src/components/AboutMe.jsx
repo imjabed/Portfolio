@@ -81,11 +81,10 @@ const AboutMe = () => {
 
             <section className="about-contact">
             <h2 className="section-title">Contact</h2>
-            <p>📞 +91 7319582773</p>
             <p>📧 contactabujabed@gmail.com</p>
-            <p>📍 Kuluri Road, Salar, Murshidabad 742401</p>
+            <p>📍Salar, Murshidabad 742401</p>
             <p>
-                🌐 <a href="https://www.imabujabed.vercel.app" target="_blank" rel="noreferrer">www.imabujabed.vercel.app</a>
+                🌐 <a href="https://imabujabed.vercel.app" target="_blank" rel="noreferrer">Website</a>
             </p>
             </section>
         </div>
