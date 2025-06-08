@@ -12,8 +12,8 @@ import bg1 from '../images/bg1.jpg'
 import bg2 from '../images/bg2.jpg'
 import bg3 from '../images/mancoding.jpg'
 import me from '../images/Me.jpg'
-import certificate1 from '../images/certificate1.jpeg'
-import certificate2 from '../images/certificate2.jpeg'
+import certificate1 from '../images/certificate1.jpg'
+import certificate2 from '../images/certificate2.jpg'
 import linkedin from '../images/linkedin.png'
 import instagram from '../images/instagram.png'
 import github from '../images/github.png'
@@ -111,11 +111,14 @@ const Home = () => {
                         height: '500px',
                     }}
                     />
-                    <Carousel.Caption className='certificatecaption'>
+                <Carousel.Caption className='certificatecaption'>
                     <h5>1 Month Industrial Training</h5>
                     <p>on MERN Stack at Ardent Computech Pvt Ltd</p>
                     </Carousel.Caption>
+
                 </Carousel.Item>
+
+                    
 
                 <Carousel.Item>
                     <img

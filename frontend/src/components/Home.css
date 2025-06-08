@@ -89,7 +89,7 @@ body{
 }
 
 .thirdbg {
-    height: 100vh;
+    height: 90vh;
     position: relative;
     padding: 40px;
     text-align: center;
@@ -98,7 +98,7 @@ body{
 }
 
 .expCaro {
-    width: 900px;
+    width: 700px;
     height: 500px;
     background-color: #161a2b; 
     border: 1px solid #0099ff;
@@ -111,6 +111,10 @@ body{
   display: flex;
   align-items: center;     
   justify-content: center; 
+}
+.certificatecaption {
+  background-color: #0c0c1755;
+  border-radius: 30px;
 }
 
 footer{
@@ -231,6 +235,10 @@ footer .footerright .followicons{
     padding: 0;
     margin: 0;
 }
+  .certificatecaption h5{
+    font-size: 14px;
+  }
+
   .fivebg{
     height: 70vh;
     padding: 20px;
