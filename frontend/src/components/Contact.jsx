@@ -14,7 +14,7 @@ const Contact = () => {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        axios.post('http://localhost:5000/send-email', formData)
+        axios.post('https://portfoliobackend-theta-navy.vercel.app/send-email', formData)
         .then((response)=> {console.log('Email Sent Success', response.data)})
         .catch((error) => {
         console.error('Error sending email:', error)})
