@@ -103,7 +103,7 @@ const Home = () => {
                 <Carousel className="expCaro">
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 certificate"
                     src={certificate1}
                     alt="First slide"
                     style={{
@@ -111,7 +111,7 @@ const Home = () => {
                         height: '500px',
                     }}
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='certificatecaption'>
                     <h5>1 Month Industrial Training</h5>
                     <p>on MERN Stack at Ardent Computech Pvt Ltd</p>
                     </Carousel.Caption>
@@ -119,7 +119,7 @@ const Home = () => {
 
                 <Carousel.Item>
                     <img
-                    className="d-block w-100"
+                    className="d-block w-100 certificate"
                     src={certificate2}
                     alt="Second slide"
                     style={{
@@ -127,7 +127,7 @@ const Home = () => {
                         height: '500px',
                     }}
                     />
-                    <Carousel.Caption>
+                    <Carousel.Caption className='certificatecaption'>
                     <h5>3 Months Industrial Training and Internship</h5>
                     <p>on MERN Stack, Deployment and Professional Communication at Ardent Computech Pvt Ltd</p>
                     </Carousel.Caption>
@@ -142,7 +142,7 @@ const Home = () => {
             <marquee style={{fontSize:'14px', color:'white', textAlign:'center', letterSpacing:'3px' }} scrollamount="10"  behavior="scroll" scrolldelay="0" direction="left">
                 For hiring | inquiries |  collaborations | questions | Contact me by sending your message below. Your message will be responded within 48 hours of receiving </marquee>
 
-            <Parallax blur={5} className='secondbg' bgImage={bg1} strength={800}  bgClassName="custom-bg2">
+            <Parallax blur={5} className='fivebg' bgImage={bg1} strength={800}  bgClassName="custom-bg">
                 <Contact />
             </Parallax>
 

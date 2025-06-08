@@ -53,3 +53,25 @@
 .contact-form input[type="submit"]:hover {
     background-color: #0072ff ;
 }
+
+@media screen and (max-width:480px){
+    .contact-form{
+      padding: 20px;
+      margin: 0;
+      width: 350px !important;
+      color: white;
+    }
+
+    .contact-form input[type="email"],
+    .contact-form input[type="text"],
+    .contact-form textarea {
+    width:300px;
+    padding: 10px;
+    /* margin: 10px 0;  */
+    border: 2px solid #33364d;
+    background-color: #1a1a2e;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 12px;
+    }
+}
