@@ -77,7 +77,7 @@ const Home = () => {
                             <Card.Text>
                             An Ocr Based ecommerce site where you upload a handwritten list of items or add manually products in a list, our site will search for the items with appropiate quantity and creates a cart for you. Saving your time and Efforts. Experience One Click Shopping
                             </Card.Text>
-                            <Button variant="primary">Visit Site</Button>
+                            <Button variant="primary" as="a" href="https://list-karo.vercel.app/" target="_blank" > Visit Site </Button>
                         </Card.Body>
                     </Card>
 
