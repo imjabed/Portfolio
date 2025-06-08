@@ -15,9 +15,9 @@ const Contact = () => {
     const sendEmail = (e) => {
         e.preventDefault();
         axios.post('https://imabujabedbackend.vercel.app/send-email', formData)
-        .then((response)=> {console.log('Email Sent Success', response.data)})
+        .then((response)=> {console.log('Email Sent Success', response.data), alert('Email Sent Successfully')})
         .catch((error) => {
-        console.error('Error sending email:', error)})
+        console.error('Error sending email:', error), alert('Failed to send Email. Please Check About Me section to view my email')})
     }
 
      return (
