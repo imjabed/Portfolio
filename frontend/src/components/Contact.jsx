@@ -12,13 +12,17 @@ const Contact = () => {
         setFormData({...formData, [e.target.name]:e.target.value});
     }
 
-    const sendEmail = (e) => {
-        e.preventDefault();
-        axios.post('https://imabujabedbackend.vercel.app/send-email', formData)
-        .then((response)=> {console.log('Email Sent Success', response.data), alert('Email Sent Successfully')})
-        .catch((error) => {
-        console.error('Error sending email:', error), alert('Failed to send Email. Please Check About Me section to view my email')})
+    const sendEmail = async (e) => {
+    e.preventDefault();
+    try {
+        const response = await axios.post('https://imabujabedbackend.vercel.app/send-email', formData);
+        console.log('Email Sent Success:', response.data);
+        alert('Email Sent Successfully');
+    } catch (error) {
+        console.error('Error sending email:', error);
+        alert('Failed to send Email. Please check the About Me section to view my email.');
     }
+    };
 
      return (
         <form onSubmit={sendEmail} className="contact-form">
