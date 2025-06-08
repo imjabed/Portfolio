@@ -159,7 +159,7 @@ const Home = () => {
                     Want to know more about me? Follow me :)
                     <div className='followicons'>
                         <a href="https://www.linkedin.com/in/imabujabed/"> <img src={linkedin} alt="" height={'50px'} width={'50px'}/></a>
-                        <a href=""> <img src={github} alt="" height={'50px'} width={'50px'} /></a>
+                        <a href="https://github.com/imjabed"> <img src={github} alt="" height={'50px'} width={'50px'} /></a>
                         <a href=""> <img src={instagram} alt="" height={'50px'} width={'50px'}/></a>
                     </div>
 

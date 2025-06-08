@@ -238,6 +238,9 @@ footer .footerright .followicons{
   .certificatecaption h5{
     font-size: 14px;
   }
+    .certificatecaption p{
+    font-size: 12px;
+  }
 
   .fivebg{
     height: 70vh;
